@@ -14,33 +14,6 @@
 
 from uno import Card, Deck, Player
 
-# Use these in your input statement
-#"\n:~Enter number of players (2-5) ~:"
-"\t:~Choose a card color (Red, Green, Blue, Yellow, or Wild) ~:"
-"\t:~Choose a card value (0-9, Skip, Reverse, +2, Color Change, +4) ~:"
-"\t:~Choose a new color (Red, Green, Blue, Yellow) ~:"
-"\t:~Choose a valid color (Red, Green, Blue, Yellow) ~:"
-"\n:~Do you want to play a game of UNO? (yes/no) ~:"
-"\n:~Do you want to play another round? (yes/no) ~:"
-
-# Use these in your print statement
-"Please enter a number between 2 and 5."
-"\n{}'s turn. Current card: {}"
-"\tYour hand: {}"
-"\tPlayable cards: {}"
-"\tInvalid card choice. Please choose a valid card from your hand."
-"\tNo playable cards. Drawing a card."
-"\nGame state:"
-"\t{} is skipped!"
-"\tDirection reversed!"
-"\t{} draws two cards!"
-"\tColor Changed to {}!"
-"\t{} draws four cards!"
-"\n-----{player.name} has won the round-----"
-"Thanks for playing!\nGo Green!! Go White!!"
-
-# Write your functions definitions here
-
 
 def play_game():
     """ask user if they want to play a game of UNO"""
