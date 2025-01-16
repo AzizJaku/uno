@@ -194,10 +194,5 @@ def main():
     closing_function()
 
 
-
-# DO NOT MODIFY THE FOLLOWING 2 LINES.
-# DO NOT WRITE ANYTHING AFTER THE FOLLOWING 2 LINES OF CODES
-# All your code should be either in the main function
-# or in another function.
 if __name__ == "__main__":
     main()
